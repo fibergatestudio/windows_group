@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+Allow: /wp-content/plugins/
+Allow: /wp-content/themes/
+Allow: /wp-includes/js/
+Sitemap: https://windowsgroup.com.ua/sitemap.xml

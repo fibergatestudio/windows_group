@@ -1,0 +1,209 @@
+div.menu-menu-1-container, form.wpcf7-form{
+	display: none;
+}
+div.menu-menu-1-container.ready-menu{
+	display: block;
+}
+.page-balcone .title-post.text-center{
+	color: transparent;
+}
+.page-balcone .section-preference .title-section{
+	margin-top: -15px;
+}
+.section-type-mosquito a.btn.btn-custom-project{
+	max-width: 217px;
+}
+a.btn.btn-href{
+	width: 160px;
+	font-size: 16px;
+	padding: 14px;
+	text-transform: uppercase;
+}
+a.btn.btn-href-2{
+	width: 260px;
+	font-size: 17px;
+	padding: 16px;
+	text-transform: uppercase;
+}
+a.btn.btn-href-3{
+	width: 160px;
+	font-size: 16px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+a.btn.btn-href-4{
+	font-size: 16px;
+	padding: 15px !important;
+	text-transform: uppercase;
+}
+/*breadcrumbs*/
+.breadcrumbs span{
+	color: #707070;
+	font-size: 15px;
+}
+.breadcrumbs .breadcrumbs__separator{
+	margin: 0 10px;
+}
+
+.section-post.section-post-windows.post-border-none{
+	border-bottom: none;
+}
+.page-window-ebb .section-other-section {
+	border-top: none;
+	margin-top: 25px;
+}
+
+.page-roller .section-other-section {
+	margin-top: 25px;
+}
+
+.title-type-windows-open{
+	font-size: 14px;
+	font-weight: 500;
+	display: block;
+	margin-bottom: 15px;
+}
+@media (min-width: 768px) {
+    .section-type-mosquito .text {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+	.block-like-type .list-scheme-works {
+		margin-bottom: 15px;
+	}
+}
+@media (min-width: 992px) {
+	.page-windows .title-post {
+		margin-bottom: 10px;
+		margin-top: 7px;
+	}
+	.list-slider-type-systems .slick-next, .list-slider-type-systems .slick-prev {
+		top: 30%;
+	}
+	.page-window-ebb .item-catalog.page .text-list-img {
+		min-height: 115px;
+	}
+	.item-type-glass .info-glassproduct{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.page-systems .section-post.section-post-windows {
+		padding-top: 27px;
+	}
+
+	.title-type-windows-open{
+		font-size: 18px;
+		padding-top: 7px;
+		margin-left: 25px;
+	}
+	.page-balcone .list-item-catalog.colum-3 .item-catalog {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.page-balcone .list-item-catalog.colum-4 .item-catalog {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.page-balcone .text-list-img {
+		margin-bottom: auto;
+		padding-bottom: 33px;
+		display: block;
+	}
+	/*.footer .block-3 .list-contact{*/
+	/*	justify-content: space-around;*/
+	/*}*/
+	/*.footer .block-3 .list-soc {*/
+	/*	justify-content: center;*/
+	/*}*/
+	/*.footer .block-3 .list-contact li{*/
+	/*	margin-right: 0;*/
+	/*}*/
+	.footer .block-3 .list-soc li:last-child{
+		margin-right: 0;
+	}
+}
+.list-decor-circle{
+	list-style-type: disc;
+	margin-left: 25px;
+}
+
+/* Сетка под Цвет Окна */
+.block-color-selection .block-colors > div{
+	display: none;
+}
+.block-color-selection .block-colors > div:first-child{
+	display: block;
+}
+#color-list label{
+	cursor: pointer;
+}
+.block-item-product .title-header{
+	display: block;
+}
+.title-section-profile {
+	font-weight: 500;
+}
+.additional-drop .title-section-sec {
+	display: block;
+	font-weight: 500;
+}
+
+.cursor-custom {
+	display: block;
+	font-weight: 500;
+}
+.profile-brand .title-section-profile{
+	font-weight: 500;
+}
+.list-type-windowsill {
+	align-items: baseline;
+}
+.list-page-disc{
+	list-style-type: disc;
+}
+
+.footer .block-1 ul.cities li {
+    margin-left: 0;
+}
+
+.footer .block-3 .list-contact, .footer .block-3 .list-soc {
+
+	margin-top: 4px;
+}
+.list-style-disc{
+	list-style: disc;
+	margin-left: 40px;
+}
+.section-post ol {
+	margin-left: 40px;
+}
+section.section-unlinking.page-404 {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1.title-section-404 {
+    font-size: 88px;
+}
+.phone-toggle:after{
+	content: none;
+}
+.phone-toggle::after{
+	content: none;
+}
+.phone-toggle :after{
+	content: none;
+}
+.phone-item::after{
+	content: none;
+}
+.page-window-ebb .section-other-section {
+	border-top: none;
+}
