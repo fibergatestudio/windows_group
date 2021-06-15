@@ -160,30 +160,29 @@ get_header();
 
 	<div class="container block-portfolio">
 		<h2 class="title-section my-3 my-lg-4">Наши Проекты</h2>
-		<ul class="slider-portfolio-present">
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio.e4a3ea4e.jpg" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>9200</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio-22.95ee553a.png" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>4500</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio-3.4b617888.jpeg" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>18900</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-
-		</ul>
+			<ul class="slider-portfolio-present">
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-1.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>9200</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-2.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>4500</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-3.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>18900</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+			</ul>
 		<button class="btn btn-portfolio">Показать все работы</button>
 	</div>
 
@@ -244,99 +243,6 @@ get_header();
 		</div>
 	</section>
 
-    <section class="section-scheme-works">
-        <div class="container">
-            <span class="title-section">Схема выполнения заказа</span>
-            <ul class="list-scheme-works balcone d-md-none">
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works request"></i> <span class="number-scheme-works">1</span></div>
-                    <span class="title">Заявка</span>
-                    <p>Позвоните нам или оставьте заявку на сайте чтобы заказать услугу</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works sample"></i> <span class="number-scheme-works">2</span></div>
-                    <span class="title">Выезд и Консультация Замерщика</span>
-                    <p>Договоримся о выезде замерщика на удобную для вас дату и время</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works model"></i> <span class="number-scheme-works">3</span></div>
-                    <span class="title">Моделирование и Визуализация Проекта</span>
-                    <p>Перед началом выполнения заказа специалист нашей компании смоделирует и визуализирует проект вашего балкона</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works calculation"></i> <span class="number-scheme-works">4</span></div>
-                    <span class="title">Расчет Стоимости</span>
-                    <p>Наша компания просчитает, поможет оптимизировать и согласует итоговую смету с учётом всех ваших индивидуальных пожеланий, утепления, обрешетки и т.д.</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works dogovor"></i> <span class="number-scheme-works">5</span></div>
-                    <span class="title">Подписание Договора и Внесение Предоплаты</span>
-                    <p>Подпишем договор перед началом выполнения заказа</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works work"></i> <span class="number-scheme-works">6</span></div>
-                    <span class="title">Монтажные Работы</span>
-                    <p>Наша компания качественно и надежно выполнит заказ точно в срок согласно строгим строительным требованиям и стандартам</p>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works assurance"></i> <span class="number-scheme-works">7</span></div>
-                    <span class="title">Гарантия</span>
-                    <p>Наша компания дает гарантию до 10 лет на материалы и до 5 лет на работы</p>
-                </li>
-            </ul>
-            <ul class="list-scheme-works-lg balcone d-none d-md-flex">
-                <li class="">
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Заявка</span>
-                        <p>Позвоните нам или оставьте заявку на сайте чтобы заказать услугу</p>
-                    </div>
-                    <div class="block-scheme-works"><i class="icon-scheme-works request"></i> <span class="number-scheme-works">1</span></div>
-                </li>
-                <li class="">
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Моделирование и Визуализация Проекта</span>
-                        <p>Перед началом выполнения заказа наша компания смоделирует и визуализирует проект с учетом изменения площади.
-                    </div>
-                    <div class="block-scheme-works"><i class="icon-scheme-works model"></i> <span class="number-scheme-works">3</span></div>
-                </li>
-                <li class="">
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Подписание Договора и<br/>Внесение Предоплаты</span>
-                        <p>Подпишем договор перед началом выполнения заказа</p>
-                    </div>
-                    <div class="block-scheme-works"><i class="icon-scheme-works dogovor"></i> <span class="number-scheme-works">5</span></div>
-                </li>
-                <li class="">
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Гарантия</span>
-                        <p>Компания даст гарантию более 10 лет на изделия и 3 года на работы</p>
-                    </div>
-                    <div class="block-scheme-works"><i class="icon-scheme-works assurance"></i> <span class="number-scheme-works">7</span></div>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works sample"></i> <span class="number-scheme-works">2</span></div>
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Выезд и Консультация Замерщика</span>
-                        <p>Компания вышлет специалиста для измерения площади на удобную для вас дату и время</p>
-                    </div>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works calculation"></i> <span class="number-scheme-works">4</span></div>
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Расчет Стоимости</span>
-                        <p>Просчитаем, поможем оптимизировать и согласуем итоговую смету с учётом всех ваших индивидуальных пожеланий и площади</p>
-                    </div>
-                </li>
-                <li class="">
-                    <div class="block-scheme-works"><i class="icon-scheme-works work"></i> <span class="number-scheme-works">6</span></div>
-                    <div class="info-list-scheme-works-lg">
-                        <span class="title">Монтажные Работы</span>
-                        <p>Качественно и надежно выполним заказ точно в срок согласно строгим строительным требованиям и стандартам</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
     <section class="section-post post-border">
         <div class="container">
             <h2 class="title-section">Преимущества французского остекления балконов</h2>

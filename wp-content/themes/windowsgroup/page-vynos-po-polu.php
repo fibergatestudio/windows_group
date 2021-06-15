@@ -158,30 +158,29 @@ get_header();
 
 	<div class="container block-portfolio">
 		<h2 class="title-section my-3 my-lg-4">Наши Проекты</h2>
-		<ul class="slider-portfolio-present">
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio.e4a3ea4e.jpg" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>9200</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio-22.95ee553a.png" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>4500</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-			<li>
-				<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/portfolio-3.4b617888.jpeg" class="img-fluid" alt="photo-product1"></a>
-				<div class="footer-item-catalog">
-					<div class="price"><span class="text">Стоимость от</span> <span>18900</span> <span class="text">грн</span></div>
-				</div>
-				<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
-			</li>
-
-		</ul>
+			<ul class="slider-portfolio-present">
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-1.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>9200</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-2.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>4500</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+				<li>
+					<a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balkony-pod-klyuch-3.jpg" class="img-fluid" alt="photo-product1"></a>
+					<div class="footer-item-catalog">
+						<div class="price"><span class="text">Стоимость от</span> <span>18900</span> <span class="text">грн</span></div>
+					</div>
+					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
+				</li>
+			</ul>
 		<button class="btn btn-portfolio">Показать все работы</button>
 	</div>
 

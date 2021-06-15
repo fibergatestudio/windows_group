@@ -1858,7 +1858,6 @@ get_header();
 					</div>
 					<a href="#" class="block-hover"><span class="hover-more"><span>Подробнее</span></span></a>
 				</li>
-
 			</ul>
 			<button class="btn btn-portfolio">Показать все работы</button>
 		</div>
