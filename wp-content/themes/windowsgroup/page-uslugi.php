@@ -62,6 +62,24 @@ get_header();
             <li class="item">
                <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/uslugi/zashchita-okon-ot-detej/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/img-unlinking-services-13.74c7c873.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/uslugi/zashchita-okon-ot-detej/" class="title-name">Защита окон от детей</a></div>
             </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/frantsuzskiye/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/franc_balkony.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/frantsuzskiye/" class="title-name px-lg-5">Французские балконы</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/vinos_balkona.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos/" class="title-name px-lg-5">Вынос балкона</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos-po-polu/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/vinos_po_polu.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos-po-polu/" class="title-name">Вынос балкона по полу</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos-po-podokonniku/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/vinos_po_podokonniku.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/vynos-po-podokonniku/" class="title-name">Вынос балкона по подоконнику</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/v-khrushchevke/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/v-khrushchevke.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/balkony-pod-klyuch/v-khrushchevke/" class="title-name">Балконы в Хрущевке</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/uslugi/osteklenie-kvartir/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/osteklenie-kvartir.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/uslugi/osteklenie-kvartir/" class="title-name">Остекление квартир</a></div>
+            </li>
          </ul>
       </div>
    </section>

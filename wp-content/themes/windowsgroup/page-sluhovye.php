@@ -69,9 +69,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -140,9 +140,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -211,9 +211,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -282,9 +282,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -353,9 +353,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -424,9 +424,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -495,9 +495,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -566,9 +566,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -1015,8 +1015,8 @@ get_header();
                           <label class="input-label">Отлив:</label>
                           <ul class="mobile-select" id="low-tides">
                               <li class="form-check d-lg-block"><input type="radio" class="form-check-input" id="low-tide-1" name="low-tide" value="1" checked="checked" onchange="document.getElementById('otliv').value = '1';"> <label class="form-check-label" for="low-tide-1">Без отлива</label></li>
-                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-2" name="low-tide" value="2" onchange="document.getElementById('otliv').value = '2';"> <label class="form-check-label" for="low-tide-2">Оцинкованый белый</label></li>
-                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-3" name="low-tide" value="3" onchange="document.getElementById('otliv').value = '3';"> <label class="form-check-label" for="low-tide-3">Оцинкованый цветной</label></li>
+                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-2" name="low-tide" value="2" onchange="document.getElementById('otliv').value = '2';"> <label class="form-check-label" for="low-tide-2">Оцинкованный белый</label></li>
+                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-3" name="low-tide" value="3" onchange="document.getElementById('otliv').value = '3';"> <label class="form-check-label" for="low-tide-3">Оцинкованный цветной</label></li>
                               <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-4" name="low-tide" value="4" onchange="document.getElementById('otliv').value = '4';"> <label class="form-check-label" for="low-tide-4">Алюминиевый</label></li>
                               <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-5" name="low-tide" value="5" onchange="document.getElementById('otliv').value = '5';"> <label class="form-check-label" for="low-tide-5">Пластиковый</label></li>
                           </ul>
@@ -1251,7 +1251,7 @@ get_header();
          <ul>
             <li>· увеличение риска протечки крыши в месте примыкания;</li>
             <li>· возрастание нагрузки на стропильную систему;</li>
-            <li>· высокая стоимости монтажа.</li>
+            <li>· высокая стоимость монтажа.</li>
          </ul>
          <p>Однако минусы использования не заменяют их функциональные превосходства. Устройство служит регулятором для выравнивания давления снаружи и внутри кровли при сильных ветровых нагрузках.</p>
          <h2 class="title-post">Кому подойдут</h2>

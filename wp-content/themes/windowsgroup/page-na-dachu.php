@@ -76,9 +76,9 @@ get_header();
                                     <td>Профиль</td>
                                     <td>Ширина профиля</td>
                                     <td>1-камерный стеклопакет</td>
-                                    <td>1-камерный энергозберигающий стеклопакет</td>
+                                    <td>1-камерный энергосберегающий стеклопакет</td>
                                     <td>2-камерный стеклопакет</td>
-                                    <td>2-камерный энергозберигающий стеклопакет</td>
+                                    <td>2-камерный энергосберегающий стеклопакет</td>
                                  </tr>
                               </thead>
                               <tbody>
@@ -118,7 +118,7 @@ get_header();
             </div>
          </div>
          <div class="block-open">
-            <h2 class="title-block-type-windows">Окно Открывающиеся</h2>
+            <h2 class="title-block-type-windows">Окно Открывающееся</h2>
             <span class="small-title">Размер 750 х 1350 мм, Цена от <span class="min-price"><?=$price_obj->okno_otkrivayusheesya->min?></span> грн до <span class="max-price"><?=$price_obj->okno_otkrivayusheesya->max?></span> грн</span>
             <ul class="nav nav-tabs" id="myTab-open" role="tablist">
                <li class="nav-item"><a class="nav-link active" id="wdc-open-tab" data-toggle="tab" href="#wds-open" role="tab" aria-controls="wds-open" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/WDS-logo-1.5f37c8d5.svg" class="img-fluid WDS-logo" alt="photo"></a></li>
@@ -147,9 +147,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -218,9 +218,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -289,9 +289,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -360,9 +360,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -431,9 +431,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -502,9 +502,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -573,9 +573,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -644,9 +644,9 @@ get_header();
                               <td>Профиль</td>
                               <td>Ширина профиля</td>
                               <td>1-камерный стеклопакет</td>
-                              <td>1-камерный энергозберигающий стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
                               <td>2-камерный стеклопакет</td>
-                              <td>2-камерный энергозберигающий стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
                            </tr>
                         </thead>
                         <tbody>
@@ -1093,8 +1093,8 @@ get_header();
                           <label class="input-label">Отлив:</label>
                           <ul class="mobile-select" id="low-tides">
                               <li class="form-check d-lg-block"><input type="radio" class="form-check-input" id="low-tide-1" name="low-tide" value="1" checked="checked" onchange="document.getElementById('otliv').value = '1';"> <label class="form-check-label" for="low-tide-1">Без отлива</label></li>
-                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-2" name="low-tide" value="2" onchange="document.getElementById('otliv').value = '2';"> <label class="form-check-label" for="low-tide-2">Оцинкованый белый</label></li>
-                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-3" name="low-tide" value="3" onchange="document.getElementById('otliv').value = '3';"> <label class="form-check-label" for="low-tide-3">Оцинкованый цветной</label></li>
+                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-2" name="low-tide" value="2" onchange="document.getElementById('otliv').value = '2';"> <label class="form-check-label" for="low-tide-2">Оцинкованный белый</label></li>
+                              <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-3" name="low-tide" value="3" onchange="document.getElementById('otliv').value = '3';"> <label class="form-check-label" for="low-tide-3">Оцинкованный цветной</label></li>
                               <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-4" name="low-tide" value="4" onchange="document.getElementById('otliv').value = '4';"> <label class="form-check-label" for="low-tide-4">Алюминиевый</label></li>
                               <li class="form-check d-none d-lg-block"><input type="radio" class="form-check-input" id="low-tide-5" name="low-tide" value="5" onchange="document.getElementById('otliv').value = '5';"> <label class="form-check-label" for="low-tide-5">Пластиковый</label></li>
                           </ul>
@@ -1327,7 +1327,7 @@ get_header();
          <ol>
             <li>Перед заказом ПВХ-изделия следует учитывать материал, из которого построен дом. В постройках из блока или кирпича монтаж проводится сразу, в деревянных – требуется время для усадки строения.</li>
             <li>В выборе размера учитывается температура помещения. Панорамные конструкции используются в отапливаемых постройках с большой площадью. В неотапливаемых домиках предпочтительнее устанавливать небольшие конструкции.</li>
-            <li>Защита от несанкционированного доступа обеспечивается засчет противовзломной фурнитуры. Дополнительно могут устанавливаться защитные элементы: ставни, решетки или роллеты.</li>
+            <li>Защита от несанкционированного доступа обеспечивается за счет противовзломной фурнитуры. Дополнительно могут устанавливаться защитные элементы: ставни, решетки или роллеты.</li>
             <li>Наличие наружных отливов служит защитой для стен от попадания влаги. Ширина отливов подбирается с учетом толщины стены.</li>
          </ol>
          <p>Оконные конструкции могут заказываться в различном цветовом исполнении с наружной, внутренней, двусторонней ламинацией. В качестве дополнительных элементов для готовых ПВХ окон для дачи используются противомоскитные сетки, откосы, жалюзи.</p>
