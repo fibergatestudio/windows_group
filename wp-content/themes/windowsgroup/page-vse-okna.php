@@ -74,6 +74,12 @@ get_header();
             <li class="item">
                <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/plastikovye-okna/triugolnye/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/triangle.8b15217a.png" class="py-2 py-lg-4 img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/plastikovye-okna/triugolnye/" class="title-name">Треугольные</a></div>
             </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/plastikovye-okna/arochnyye/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/arochnyye.png" class="py-2 py-lg-4 img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/plastikovye-okna/arochnyye/" class="title-name">Арочные</a></div>
+            </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/plastikovye-okna/na-kuhnyu/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/na-kuhnyu.png" class="py-2 py-lg-4 img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/plastikovye-okna/na-kuhnyu/" class="title-name">На кухню</a></div>
+            </li>
          </ul>
       </div>
    </section>

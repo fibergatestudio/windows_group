@@ -80,6 +80,9 @@ get_header();
             <li class="item">
                <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/uslugi/osteklenie-kvartir/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/osteklenie-kvartir.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/uslugi/osteklenie-kvartir/" class="title-name">Остекление квартир</a></div>
             </li>
+            <li class="item">
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/uslugi/remont-balkonov/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/remont-balkonov.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/uslugi/remont-balkonov/" class="title-name">Ремонт балконов</a></div>
+            </li>
          </ul>
       </div>
    </section>
