@@ -1,3 +1,38 @@
+@font-face {
+    font-weight: 300;
+    font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Light.ttf");
+
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Medium.ttf");
+
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.ttf");
+
+    font-display: swap;
+}
 div.menu-menu-1-container, form.wpcf7-form{
 	display: none;
 }

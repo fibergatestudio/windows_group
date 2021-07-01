@@ -22,17 +22,231 @@ get_header();
    <section class="section-table-price">
       <div class="container">
          <div class="top-post-page">
-             <h1 class="title-post">Арочные ПВХ (пластиковые) окна в Киеве – цены</h1>
-             Блок текста на 7-8 строк
+             <h1 class="title-post">Арочные окна</h1>
+             <p class="text-custom-page">Арочные окна – это окна нестандартной формы, имеющие закругления различного радиуса. В компании «Виндовс Груп» вы можете <strong>заказать арочные окна в Киеве</strong> по приемлемым ценам.</p>
          </div>
 
          <?php 
             
-            /*global $wpdb;
+            global $wpdb;
             $result_params = $wpdb->get_results("SELECT * FROM `{$wpdb -> prefix}window_prices` WHERE `page_name` = 'okna_arochnyye' ");
-            $price_obj = json_decode($result_params[0]->data);*/
+            $price_obj = json_decode($result_params[0]->data);
          
          ?>
+
+         <div class="block-windows-type-1">
+            <h2 class="title-block-type-windows">Арочное глухое окно</h2>
+            <span class="small-title">Размер 900 х 400 мм, Цена от <span class="min-price"><?=$price_obj->arochnyye_1->min?></span> грн до <span class="max-price"><?=$price_obj->arochnyye_1->max?></span> грн</span>
+            <ul class="nav nav-tabs" id="myTab-open" role="tablist">
+               <li class="nav-item"><a class="nav-link active" id="wdc-open-tab" data-toggle="tab" href="#wds-open" role="tab" aria-controls="wds-open" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/WDS-logo-1.5f37c8d5.svg" class="img-fluid WDS-logo" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="windoffs-open-tab" data-toggle="tab" href="#windoffs-open" role="tab" aria-controls="windoffs-open" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/logo-new-windoffs-1.590253c8.svg" class="img-fluid windoffs-logo" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="viknaland-open-tab" data-toggle="tab" href="#viknaland-open" role="tab" aria-controls="viknaland-open" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/viknaland-logo-1.a67c333c.svg" class="viknaland-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="rehau-open-tab" data-toggle="tab" href="#rehau-open" role="tab" aria-controls="rehau-open" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/rehau-logo-1.5dbf9707.svg" class="rehau-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="salamander-open-tab" data-toggle="tab" href="#salamander-open" role="tab" aria-controls="salamander-open" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/salamander-logo-1.4fa97951.svg" class="salamander-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="kbe-open-tab" data-toggle="tab" href="#kbe-open" role="tab" aria-controls="kbe" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/kbe-logo-1.0d5c807a.svg" class="img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="opentek-open-tab" data-toggle="tab" href="#opentek-open" role="tab" aria-controls="opentek" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/openteck-logo-1.c0ec51c2.svg" class="openteck-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="veka-open-tab" data-toggle="tab" href="#veka-open" role="tab" aria-controls="veka-open" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/veka-logo-1.5a1822d9.svg" class="veka-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="aluplast-open-tab" data-toggle="tab" href="#aluplast-open" role="tab" aria-controls="aluplast-open" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/aluplast-logo-1.19c32497.svg" class="aluplast-logo img-fluid" alt="photo"></a></li>
+            </ul>
+            <div class="tab-content" id="myTabContent-open">
+
+               <?php 
+               $k = 0;
+               foreach ($price_obj->arochnyye_1 as $key_w => $value_w) {
+                  if (is_object($value_w)) { ?>
+               
+               <div class="tab-pane fade show <?=($k===0)?'active':''?>" id="<?=$key_w?>-open" role="tabpanel" aria-labelledby="<?=$key_w?>-open">
+                  <div class="table-tab">
+                     <div class="block-img"><img src="<?php bloginfo('template_url') ?>/images/arochnoye_gluhoye.jpg" class="img-type-windows img-fluid" alt="photo"></div>
+                     <table class="table-windows table-price-windows">
+                        <thead>
+                           <tr>
+                              <td>Профиль</td>
+                              <td>Ширина профиля</td>
+                              <td>1-камерный стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
+                              <td>2-камерный стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
+                           </tr>
+                        </thead>
+                        <tbody>
+
+                           <tr>
+                              <?php
+                              $this_obj = $price_obj->arochnyye_1->$key_w;
+                              $j = 0;
+                              foreach ($this_obj as $value) {
+                                 $j++;
+                              }                             
+                              $i = 1;
+                              foreach ($this_obj as $key => $value) { ?>
+                                 <?php
+                                 if ($i%6 === 1) {?>
+                                    <td class="name"><?=$value?></td>
+                                 <?php } else{ ?>
+                                    <td><?=$value?></td>
+                                 <?php } 
+                                 if ($i%6 === 0 && $i < $j) {?>
+                                 </tr><tr>
+                                 <?php } 
+                                 $i++ ; 
+                              }?>                           
+                           </tr>
+                        
+                        </tbody>
+                     </table>
+                  </div>
+                  <div class="text-center"><button class="button-table"><span class="icon icon-phone-table"></span> Перезвоните мне</button></div>
+               </div>
+               
+               <?php } 
+                  $k++;                
+               } ?>
+            
+            </div>
+         </div>
+         <div class="block-windows-type-2">
+            <h2 class="title-block-type-windows">Арочное поворотно-откидное окно</h2>
+            <span class="small-title">Размер 700 х 1300 мм, Цена от <span class="min-price"><?=$price_obj->arochnyye_2->min?></span> грн до <span class="max-price"><?=$price_obj->arochnyye_2->max?></span> грн</span>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+               <li class="nav-item"><a class="nav-link active" id="wdc-tab" data-toggle="tab" href="#wds" role="tab" aria-controls="wds" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/WDS-logo-1.5f37c8d5.svg" class="WDS-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="windoffs-tab" data-toggle="tab" href="#windoffs" role="tab" aria-controls="windoffs" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/logo-new-windoffs-1.590253c8.svg" class="windoffs-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="viknaland-tab" data-toggle="tab" href="#viknaland" role="tab" aria-controls="viknaland" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/viknaland-logo-1.a67c333c.svg" class="viknaland-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="rehau-tab" data-toggle="tab" href="#rehau" role="tab" aria-controls="rehau" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/rehau-logo-1.5dbf9707.svg" class="rehau-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="salamander-tab" data-toggle="tab" href="#salamander" role="tab" aria-controls="salamander" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/salamander-logo-1.4fa97951.svg" class="salamander-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="kbe-tab" data-toggle="tab" href="#kbe" role="tab" aria-controls="kbe" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/kbe-logo-1.0d5c807a.svg" class="kbe-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="opentek-tab" data-toggle="tab" href="#opentek" role="tab" aria-controls="opentek" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/openteck-logo-1.c0ec51c2.svg" class="openteck-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="veka-tab" data-toggle="tab" href="#veka" role="tab" aria-controls="veka" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/veka-logo-1.5a1822d9.svg" class="veka-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="aluplast-tab" data-toggle="tab" href="#aluplast" role="tab" aria-controls="aluplast" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/aluplast-logo-1.19c32497.svg" class="aluplast-logo img-fluid" alt="photo"></a></li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+
+               <?php 
+               $k = 0;
+               foreach ($price_obj->arochnyye_2 as $key_w => $value_w) {
+                  if (is_object($value_w)) { ?>
+               
+               <div class="tab-pane fade show <?=($k===0)?'active':''?>" id="<?=$key_w?>" role="tabpanel" aria-labelledby="<?=$key_w?>">
+                  <div class="table-tab">
+                     <div class="block-img"><img src="<?php bloginfo('template_url') ?>/images/arochnoye_1.jpg" class="img-type-windows img-fluid" alt="photo"></div>
+                     <table class="table-windows table-price-windows">
+                        <thead>
+                           <tr>
+                              <td>Профиль</td>
+                              <td>Ширина профиля</td>
+                              <td>1-камерный стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
+                              <td>2-камерный стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           
+                           <tr>
+                              <?php
+                              $this_obj = $price_obj->arochnyye_2->$key_w;
+                              $j = 0;
+                              foreach ($this_obj as $value) {
+                                 $j++;
+                              }                             
+                              $i = 1;
+                              foreach ($this_obj as $key => $value) { ?>
+                                 <?php
+                                 if ($i%6 === 1) {?>
+                                    <td class="name"><?=$value?></td>
+                                 <?php } else{ ?>
+                                    <td><?=$value?></td>
+                                 <?php } 
+                                 if ($i%6 === 0 && $i < $j) {?>
+                                 </tr><tr>
+                                 <?php } 
+                                 $i++ ; 
+                              }?>                           
+                           </tr>
+                        
+                        </tbody>
+                     </table>
+                  </div>
+                  <div class="text-center"><button class="button-table"><span class="icon icon-phone-table"></span> Перезвоните мне</button></div>
+               </div>
+               
+               <?php } 
+                  $k++;                
+               } ?>
+            
+            </div>
+         </div>
+         <div class="block-windows-type-3">
+            <h2 class="title-block-type-windows">Арочное двухстворчатое окно</h2>
+            <span class="small-title">Размер 1200 х 1400 мм, Цена от <span class="min-price"><?=$price_obj->arochnyye_3->min?></span> грн до <span class="max-price"><?=$price_obj->arochnyye_3->max?></span> грн</span>
+            <ul class="nav nav-tabs" id="myTab-DoubleOneOpening" role="tablist">
+               <li class="nav-item"><a class="nav-link active" id="wdc-type-3-tab" data-toggle="tab" href="#wds-type-3" role="tab" aria-controls="wds-type-3" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/WDS-logo-1.5f37c8d5.svg" class="img-fluid WDS-logo" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="windoffs-type-3-tab" data-toggle="tab" href="#windoffs-type-3" role="tab" aria-controls="windoffs-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/logo-new-windoffs-1.590253c8.svg" class="img-fluid windoffs-logo" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="viknaland-type-3-tab" data-toggle="tab" href="#viknaland-type-3" role="tab" aria-controls="viknaland-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/viknaland-logo-1.a67c333c.svg" class="viknaland-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="rehau-type-3-tab" data-toggle="tab" href="#rehau-type-3" role="tab" aria-controls="rehau-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/rehau-logo-1.5dbf9707.svg" class="rehau-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="salamander-type-3-tab" data-toggle="tab" href="#salamander-type-3" role="tab" aria-controls="salamander-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/salamander-logo-1.4fa97951.svg" class="salamander-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="kbe-type-3-tab" data-toggle="tab" href="#kbe-type-3" role="tab" aria-controls="kbe-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/kbe-logo-1.0d5c807a.svg" class="img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="opentek-type-3-tab" data-toggle="tab" href="#opentek-type-3" role="tab" aria-controls="opentek-type-3" aria-selected="false"><img src="<?php bloginfo('template_url') ?>/images/openteck-logo-1.c0ec51c2.svg" class="openteck-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="veka-type-3-tab" data-toggle="tab" href="#veka-type-3" role="tab" aria-controls="veka-type-3" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/veka-logo-1.5a1822d9.svg" class="veka-logo img-fluid" alt="photo"></a></li>
+               <li class="nav-item"><a class="nav-link" id="aluplast-type-3-tab" data-toggle="tab" href="#aluplast-type-3" role="tab" aria-controls="aluplast-type-3" aria-selected="true"><img src="<?php bloginfo('template_url') ?>/images/aluplast-logo-1.19c32497.svg" class="aluplast-logo img-fluid" alt="photo"></a></li>
+            </ul>
+            <div class="tab-content" id="myTabContent-type-3">
+               
+               <?php 
+               $k = 0;
+               foreach ($price_obj->arochnyye_3 as $key_w => $value_w) {
+                  if (is_object($value_w)) { ?>
+               
+               <div class="tab-pane fade show <?=($k===0)?'active':''?>" id="<?=$key_w?>-type-3" role="tabpanel" aria-labelledby="<?=$key_w?>-type-3">
+                  <div class="table-tab">
+                     <div class="block-img"><img src="<?php bloginfo('template_url') ?>/images/arochnoye_2.jpg" class="img-type-windows img-fluid" alt="photo"></div>
+                     <table class="table-windows table-price-windows">
+                        <thead>
+                           <tr>
+                              <td>Профиль</td>
+                              <td>Ширина профиля</td>
+                              <td>1-камерный стеклопакет</td>
+                              <td>1-камерный энергосберегающий стеклопакет</td>
+                              <td>2-камерный стеклопакет</td>
+                              <td>2-камерный энергосберегающий стеклопакет</td>
+                           </tr>
+                        </thead>
+                        <tbody>
+
+                           <tr>
+                              <?php
+                              $this_obj = $price_obj->arochnyye_3->$key_w;
+                              $j = 0;
+                              foreach ($this_obj as $value) {
+                                 $j++;
+                              }                             
+                              $i = 1;
+                              foreach ($this_obj as $key => $value) { ?>
+                                 <?php
+                                 if ($i%6 === 1) {?>
+                                    <td class="name"><?=$value?></td>
+                                 <?php } else{ ?>
+                                    <td><?=$value?></td>
+                                 <?php } 
+                                 if ($i%6 === 0 && $i < $j) {?>
+                                 </tr><tr>
+                                 <?php } 
+                                 $i++ ; 
+                              }?>                           
+                           </tr>
+                        
+                        </tbody>
+                     </table>
+                  </div>
+                  <div class="text-center"><button class="button-table"><span class="icon icon-phone-table"></span> Перезвоните мне</button></div>
+               </div>
+               
+               <?php } 
+                  $k++;                
+               } ?>
+            
+            </div>
+         </div>
          
       </div>
    </section>
@@ -671,8 +885,80 @@ get_header();
    </section>
    <section class="section-post section-post-windows">
       <div class="container">
-         <h2 class="title-section">Блок с текстом</h2>
-      </div>
+        <div class="text-custom-page">
+           <h2 class="title-post">Виды полукруглых окон</h2>
+           <p>По форме полукруглые окна бывают:</p>
+            <ul class="ml-3">
+               <li>● стандартные – имеют прямоугольное основание, верхняя часть выполнена в виде полукруга;</li>
+               <li>● полукруглые и полуциркульные – представляют собой простую арку, изготовленную в форме полуокружности;</li>
+               <li>● мавританские – имеют подковообразную форму, используются в восточных архитектурных стилях;</li>
+               <li>● стрельчатые – вытянутые модели с верхней остроконечной частью, окна такого типа придадут зданию готический шарм и таинственность;</li>
+               <li>● английская арка (лучковые окна) – представлена в виде половины эллипса, расположенного в верхней части.</li>
+            </ul>
+            <p>По типу открывания <strong>круглые</strong> окна бывают:</p>
+            <ul class="ml-3">
+               <li>● поворотные – подходят для установки в оконных проемах среднего размера, открытие конструкции осуществляется внутрь помещения;</li>
+               <li>● откидные – идеально подходят для монтажа в мансардном помещении;</li>
+               <li>● распашные двустворчатые – створки располагаются в горизонтальном или вертикальном положении, открываться могут одна или две створки;</li>
+               <li>● комбинированные – для удобства эксплуатации в одной модели комбинируются глухие и поворотно-откидные створки;</li>
+               <li>● глухие – устанавливаются в эстетических целях, в местах, где отсутствует необходимость в проветривании и мытье.</li>
+            </ul>
+            <p>В нашем интернет-магазине представлены лучшие модели <a href="<?=get_bloginfo('home')?>/okna/wds/">окон из профиля WDS</a> и других производителей – оптимальные конструкции для <a href="<?=get_bloginfo('home')?>/uslugi/osteklenie-kotedzhej/">остекления загородных коттеджей</a>.</p>
+            <h2 class="title-post">Из каких материалов изготавливаются арочные окна?</h2>
+            <p>Арочные конструкции изготавливаются из материалов, таких как ПВХ, дерево и алюминий.</p>
+            <p>Готовые арочные окна из ПВХ являются самым выгодным и доступным вариантом для установки в помещении. Такие конструкции отличаются высоким уровнем тепло- и шумоизоляции, герметичности, долговечной и комфортной эксплуатацией в течение 40 лет.</p>
+            <p><strong>Деревянные арочные</strong> окна характеризуются экологичностью, при правильном уходе служат на протяжении 30 лет, имеют хорошую теплоизоляцию.</p>
+            <p>Алюминиевые окна аркой отличаются прочностью, легкостью и долговечностью конструкции на протяжении 50 лет. В сравнении с пластиком и деревом металл имеет меньшие теплоизоляционные свойства, поэтому отлично подходит для остекления нежилых помещений (веранд, оранжерей, лоджий).</p>
+            <p><a href="<?=get_bloginfo('home')?>/alyuminij/okna/">Заказать окна из алюминия</a> и <a href="<?=get_bloginfo('home')?>/plastikovye-dveri/na-balkon/">металлопластиковые балконные блоки</a> можно на нашем сайте онлайн или по телефону. Наши изделия подойдут для любых балконов и лоджий, в том числе в домах «хрущевской» постройки.</p>
+            <h2 class="title-post">Как выбрать арочный стеклопакет?</h2>
+            <span>При выборе арочных стеклопакетов следует учесть несколько рекомендаций:</span>
+            <ol>
+                <li>Параметры нестандартных оконных конструкций ограничены при отсутствии армирующего профиля. Арочные окна с армирующей вставкой предотвращают деформацию от высоких температур, ветровых нагрузок, попадания холода и образования конденсата.</li>
+                <li>Минимальный радиус изгиба профильной системы: коробки – 350 мм, створки – 400 мм. Максимальный радиус конструкции ограничивается величиной 2300 мм.</li>
+                <li>Чем больше используется профилей, тем меньше становится светопроницаемость стеклопакета.</li>
+                <li>Важно использовать фурнитуру, подходящую именно для арочных конструкций. От этого зависит долговечность и надежность эксплуатации арочного евроокна.</li>
+                <li>Тип <strong>открывания окон в виде арки</strong> выбирается в зависимости от назначения. Больше двух створок на арочном окне изготавливать не рекомендуется, поскольку нарушается геометрия конструкции, визуально уменьшается помещение.</li>
+                <li>Для увеличенной площади остекления рекомендуется установка энергосберегающего стеклопакета с достаточной шириной рамы.</li>
+                <li><strong>Большие арочные окна из алюминия</strong> будут идеально гармонировать с интерьером, если их дополнить кашированными и ламинированными ПВХ-профилями. Покрытие специальной пленкой позволяет окрашивать профиль в любые цвета, под имитацию натурального дерева.</li>
+            </ol>
+            <h2 class="title-post">Арочные окна в интерьере: особенности оформления</h2>
+            <p>В качестве оформления арочных евроокон в интерьере рекомендуется отдать предпочтение классическим однотонным шторам неярких оттенков и карнизам с изгибом арки. Такой вариант отлично будет смотреться на кухне, в зоне размещения внутренних лестниц, гостиных и входных холлов.</p>
+            <p>Чтобы защитить помещение от ярких солнечных лучей, лучше использовать светозащитные жалюзи или приобрести римские, английские, рулонные, австрийские шторы. Управление портьерами может быть ручным, механическим или автоматизированным.</p>
+            <h2 class="title-post">Как заказать арочные металлопластиковые окна?</h2>
+            <p>Для того, чтобы заказать новые или заменить старые закругленные окна, необходимо оставить заявку на выезд мастера на дом на сайте или по телефону. По приезду на объект наш специалист произведет все необходимые <strong>замеры</strong> проема, а также проконсультирует по возможным моделям.</p>
+            <h2 class="title-post">Преимущества заказа в нашей компании</h2>
+            <p>Мы предлагаем приобрести недорого окна ПВХ нестандартной формы, изготовленные на современном высокоточном оборудовании.</p>
+            <p>Основные преимущества компания «Windows Group»:</p>
+            <ol>
+                <li>Доступные цены в Киеве и Киевской области.</li>
+                <li>Возможность заказа бесплатного выезда мастера для осуществления замеров.</li>
+                <li>Заключение предварительного договора с внесением предоплаты за оформленный заказ.</li>
+                <li>Изготовление арочного стеклопакета по индивидуальным параметрам.</li>
+                <li>Оперативное изготовление качественных однокамерных, двухкамерных и трехкамерных стеклопакетов.</li>
+                <li>Демонтаж и профессиональная установка готового арочного окна с предоставлением <strong>гарантии</strong>. При необходимости осуществляется демонтаж и вывоз старого арочного стеклопакета.</li>
+            </ol>
+            <h2 class="title-post">Как рассчитать цены на пластиковые арочные окна?</h2>
+            <p>Предварительно <a href="<?=get_bloginfo('home')?>/plastikovye-okna/">рассчитать стоимость металлопластикового окна</a> можно на нашем сайте с помощью онлайн-калькулятора.</p>
+            <p>Для этого в оконном калькуляторе необходимо сделать следующие действия:</p>
+            <ul class="ml-3">
+               <li>● выбрать тип окна (количество створок и фрамуг);</li>
+               <li>● указать размер окна, механизм открывания, вид профиля и фурнитуры, камерность стеклопакета;</li>
+               <li>● подобрать аксессуары;</li>
+               <li>● выбрать вид отделки откосов.</li>
+           </ul>
+           <p>После чего необходимо нажать на кнопку «Заказать», и подробный расчет стоимости будущего окна отобразится на экране или будет отправлен на адрес вашей электронной почты. </p>
+           <p><strong>Стоимость арочного окна</strong> зависит от нескольких критериев:</p>
+           <ul class="ml-3">
+               <li>● разновидности оконной конструкции;</li>
+               <li>● вида используемого профиля;</li>
+               <li>● количества стеклопакетов;</li>
+               <li>● размера;</li>
+               <li>● оформления (наличие шпросов, витражных стекол).</li>
+           </ul>
+           <p>Мы предлагаем оригинальные дизайнерские решения, которые помогут подчеркнуть индивидуальность и функциональность различных типов зданий: от индивидуального строительства до административных зданий.</p>
+           <p>Узнать сколько будет стоить <a href="<?=get_bloginfo('home')?>">установка металлопластиковых окон в Киеве</a> можно на сайте или, заказав обратный звонок. Наш консультант свяжется с вами в ближайшее время, обязательно ответит на все ваши вопросы и поможет определиться с выбором. </p>
+       </div>
+   </div>
    </section>
    <section class="section-other-type-windows">
       <div class="container">

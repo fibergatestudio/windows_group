@@ -16,18 +16,21 @@ get_header();
 ?>
 
 <div class="main page-servises-glass servises">
-   <section class="section-welcome-page bg-servises-glass bg-replacement-windows-glass">
+   <!-- <section class="section-welcome-page bg-servises-glass bg-replacement-windows-glass">
       <div class="container">
          <div class="text-welcome">
             <h1>Замена стеклопакетов</h1>
          </div>
       </div>
-   </section>
+   </section> -->
    <section class="section-top-page">
       <div class="container">
          <?php if ( function_exists( 'dimox_breadcrumbs' ) ) dimox_breadcrumbs(); ?>
-         <h2 class="title-post title-post-top">Замена оконных стеклопакетов в Киеве</h2>
-         <p class="text-custom-page">Переустановка стеклопакета – эффективный способ обновления оконной конструкции. Появление трещины или разгерметизация стекла являются сигналами для срочного ремонта. Наша компания «Windows Group» предлагает заказать замену оконных стеклопакетов в Киеве и Киевской области по лучшим ценам.</p>
+         <h2 class="title-post title-post-top">Замена стеклопакетов</h2>
+         <p class="text-custom-page"><strong>Замена стеклопакета</strong> – это установка новой светопрозрачной конструкции, изготовленной по индивидуальным параметрам. Ремонтировать и заменять стекло самостоятельно не рекомендуется, потому, как стеклопакет является единой и сложной конструкцией. При неправильной установке могут быть нарушены основные характеристики стеклопакета: теплоизоляция и звукоизоляция.</p>
+         <p class="text-custom-page">
+            Компания «Windows Group» предлагает недорогую замену стеклопакетов в Киеве с гарантией качества проделанных работ. Также наши специалисты могут провести диагностику окон ПВХ, оперативно выявить и устранить имеющиеся недостатки.
+         </p>
          <ul class="list-item-catalog list-type-glass-fasad colum-4">
             <li class="item-catalog page">
                <div class="block-item-catalog">
@@ -51,21 +54,127 @@ get_header();
             </li>
          </ul>
          <div class="text-custom-page pt-lg-3">
-            <h2 class="title-post">Когда требуется замена</h2>
-            <span>Основными причинами для переустановки пакета в оконной конструкции являются:</span>
+            <h2 class="title-post">В каких случаях стоит поменять стеклопакет</h2>
+            <span>Основные причины поменять стеклопакет:</span>
             <ul class="ml-3">
-               <li>● неправильная установка прокладок (пластин);</li>
-               <li>● усадка здания;</li>
-               <li>● спонтанный термический удар;</li>
-               <li>● присутствие посторонних предметов;</li>
-               <li>● не полностью закрученные шурупы;</li>
-               <li>● появление минимального зазора между рамой и стеклопакетом;</li>
-               <li>● механическое повреждение стекла.</li>
+               <li>● когда разбит стеклопакет, то это нарушает целость и герметичность оконной конструкции; из-за маленького скола стекло может запотевать и пропускать холодный воздух в помещение;</li>
+               <li>● когда произошла разгерметизация стеклопакета, тогда требуется срочный ремонт стеклопакета, из-за риска сильного образования конденсата, что является причиной нарушения защитных функций окна;</li>
+               <li>● для улучшения безопасности в квартирах и домах, где находятся маленькие дети и пожилые люди; установка закаленного стекла или триплекса увеличивают прочность надежность оконной конструкции, что поможет уберечь ваших близких от случайного выпадения из окна;</li>
+               <li>● при естественном износе окон, которые стали пропускать воздух, плохо сохраняют тепло зимой и комфортную температуру летом; в данном случае понадобится замена старого стеклопакета на новый;</li>
+               <li>● при необходимости замены стеклопакета на более функциональный стеклопакет (увеличить количество камер, улучшить шумоизоляцию и энергоэффективность).</li>
             </ul>
-            <p>Также переустановка осуществляется из-за разгерметизации, вызывающей ухудшение тепло- и звукоизоляционных особенностей оконной конструкции. Распознать потерю герметичности можно по проникновению холода и шумов в помещение. Простая переустановка светопрозрачной вставки поможет снизить затраты на коммунальные услуги.</p>
+            <p>Мы предлагаем <a href="<?=get_bloginfo('home')?>/plastikovye-okna/">недорогие пластиковые окна в Киеве</a> стандартной и нестандартной формы в различных расцветках. Узнать цены на замену однокамерного стеклопакета на двухкамерный можно на сайте или по телефону.</p>
          </div>
       </div>
    </section>
+   
+   <section class="section-banner">
+      <div class="text-banner">
+         <h5 class="title">Разбился или запотевает стеклопакет?</h5>
+         <span class="title-2">Проведем замену или ремонт</span> <span class="text">Изготовим и установим новый стеклопакет на окно любого типа и размера</span> <span class="phone">0 800 111 222</span> <a href="<?=get_bloginfo('home')?>/vyzov-zamershchika/" class="btn btn-custom-project btn-more-details">Подробнее</a>
+      </div>
+      <img src="<?php bloginfo('template_url') ?>/images/bg-img-page-glass.8c01f47e.jpg" class="img-fluid" alt="photo-product1">
+   </section>
+
+   <div class="block-form-inline">
+      <div class="container">
+         <form class="call-back-form">
+               <div class="form-group"><label><input class="form-control" name="your-name" placeholder="Ваше имя*"></label></div>
+               <div class="form-group"><label><input class="form-control" name="tel-460" placeholder="Телефон*"></label></div>
+               <div class="form-group"><label><input type="email" class="form-control" name="your-message" placeholder="E-mail"></label></div>
+               <button type="submit" class="btn btn-success">Перезвоните Мне</button>
+            </form>
+      </div>
+   </div>
+
+   <section class="section-post section-post-windows">
+      <div class="container">
+         <h2 class="title-section">Полная замена стеклопакета или отдельных стекол</h2>
+         <p class="text-custom-page">Оконные профильные системы изначально укомплектованы съемными штапиками, позволяющими при необходимости снять и заменить стеклопакет или отдельное стекло.
+         Замена отдельного стекла осуществляется при его повреждении или для усовершенствования функциональных характеристик. Такой вид ремонта обходится значительно дешевле, чем полная замена стеклопакета. Замене подлежит только светопрозрачная часть окна, при этом не требуется демонтаж и повторный монтаж.
+         Полная замена стеклопакета необходима при нарушении целостности герметика (разгерметизации), возможной усадке здания или сильном механическом повреждении окна. Кроме того, часто <strong>установка</strong> нового стеклопакета осуществляется для улучшенной защиты помещения от проникновения холода и влаги.
+         Установка новых качественных оконных конструкций помогает сохранить тепло, что позволяет значительно сэкономить на оплате коммунальных услуг.
+         </p>
+      </div>
+   </section>
+
+   <section class="section-table-price section-post section-post-windows">
+      <div class="container">
+         <h2 class="title-section">Цены на Стеклопакеты</h2>
+         <div class="wrapper-table">
+            <table class="table-page-glass table-windows">
+               <thead>
+                  <tr>
+                     <td>Тип стеклопакета</td>
+                     <td>Формула стеклопакета</td>
+                     <td>Светопропускание</td>
+                     <td class="td-100">Сопротивление теплопередачи</td>
+                     <td>Цена за м<sup>2</sup></td>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>Однокамерный</td>
+                     <td>4-10-4-10-4i</td>
+                     <td>73</td>
+                     <td>73</td>
+                     <td>1095 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Двухкамерный</td>
+                     <td>4-10ar-4-10ar-4i</td>
+                     <td>62</td>
+                     <td>62</td>
+                     <td>1213 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Трехкамерный</td>
+                     <td>4-16Ar-4zero</td>
+                     <td>71</td>
+                     <td>71</td>
+                     <td>837 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Однокамерный энергосберегающий</td>
+                     <td>4Sol-10-4-10-4i</td>
+                     <td>73</td>
+                     <td>73</td>
+                     <td>1355 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Двухкамерный энергосберегающий</td>
+                     <td>4i-14ar ACS-4-16ar ACS-4i</td>
+                     <td>73</td>
+                     <td>73</td>
+                     <td>2338 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Двухкамерный мультифункциональный</td>
+                     <td>4Sol-14ar-4-16ar-4i</td>
+                     <td>67</td>
+                     <td>67</td>
+                     <td>1557 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Трехкамерный энергосберегающий</td>
+                     <td>4Sel-10ar-4-10ar-4</td>
+                     <td>55</td>
+                     <td>55</td>
+                     <td>1410 грн</td>
+                  </tr>
+                  <tr>
+                     <td>Трехкамерный мультифункциональный</td>
+                     <td>4-14Ar-4-14Ar-4i</td>
+                     <td>70</td>
+                     <td>70</td>
+                     <td>1251 грн</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </section>
+   
    <section class="section-preference">
       <div class="container">
          <h3 class="title-section">Наши Прeимущества</h3>
@@ -97,6 +206,148 @@ get_header();
          </ul>
       </div>
    </section>
+
+   <section class="section-post section-post-windows">
+      <div class="container">
+         <h2 class="title-section">Выбор стеклопакета для замены: топ-5 рекомендаций</h2>
+         <span class="text-custom-page">При выборе стеклопакета следует учитывать следующие рекомендации:</span>
+         <ol class="text-custom-page">
+            <li>Высокий уровень звукоизоляции позволяет наслаждаться комфортной тишиной в квартире, избавив Вас от шума с улицы.
+            </li>
+            <li>
+               Повышенная взломостойкость оконных конструкций помогает защитить вас и ваших близких от несанкционированного проникновения.
+            </li>
+            <li>
+               Энергосберегающие стеклопакеты обеспечивают большую экономию потребления энергии, что значительно снижает ваши затраты на отопление. Каждое стекло задерживает часть солнечного света. Поэтому важно помнить, что чем больше стекол, тем темнее будет в помещении.
+            </li>
+            <li>
+               Срок эксплуатации окон ПВХ зависит от качества установленной фурнитуры. При правильном, своевременном обслуживании и эксплуатации пластиковые окна прослужат в течение 40-50 лет.
+            </li>
+            <li>
+               Остекление балконов пластиковыми окнами из алюминиевого профиля защитит лоджию от атмосферного воздействия – получится аналог летней веранды. Однокамерные стеклопакеты обеспечивают отличную звукоизоляцию, но не защищают балкон от потерь тепла. Для лоджии, которая присоединяется к жилой комнате, лучше приобрести теплые окна из трехкамерного профиля с монтажной шириной 70 мм, с двойным энергосберегающим стеклопакетом.
+            </li>
+         </ol>
+      </div>
+   </section>
+
+   <section class="section-post section-post-windows">
+      <div class="price-type-glass">
+         <div class="container">
+            <h2 class="title-section">Виды Стеклопакетов</h2>
+            <ul class="list-type-glass-page-glass">
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Однокамерные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/odnokamernye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass.65a02df2.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>599</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Двухкамерные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/dvuhkamernye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-2.6f5a0aaf.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>799</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Трехкамерные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/trekhkamernye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-3.d1dd173f.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>999</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>С подогревом</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/s-podogrevom/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-4.52ed71df.png" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>2999</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Энергосберегающие</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/energosberegayushchie/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-5.ee7d81e0.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>830</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Мультифункциональные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/multifunkcionalnye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-6.d362525d.png" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>899</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Тонированные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/tonirovannye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-7.cd42b4f1.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>862</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+               <li class="item-glass">
+                  <div class="wrapper-item-glass">
+                     <div class="header-item-glass"><span>Ударопрочные</span></div>
+                     <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/udaroprochnye/" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/item-type-glass-8.8e64276e.jpg" class="img-fluid" alt="photo-product1"></a>
+                     <div class="footer-item-glass">
+                        <div class="price"><span class="text">от</span> <span>980</span> <span class="text">грн / м<sup>2</sup></span></div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </section>
+
+   <section class="section-buy-from-us">
+      <div class="container">
+         <h2 class="title-section">Почему Стоит Заказать Замену Стеклопакета Именно у Нас</h2>
+         <ul class="list-item-catalog list-buy-from-us">
+            <li class="item-catalog">
+               <div class="block-item-catalog box-shadow">
+                  <div class="header-item-catalog max">Новое Современное Оборудование</div>
+                  <a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/img-buy-from-us.020ff813.jpg" class="img-fluid" alt="photo-product1"></a>
+               </div>
+               <p class="mt-2">Оконные и дверные конструкции производятся на инновационном оборудовании по современным уникальным технологиям. При изготовлении используются исключительно качественные материалы и фурнитура. </p>
+            </li>
+            <li class="item-catalog">
+               <div class="block-item-catalog box-shadow">
+                  <div class="header-item-catalog max">Собственное Производство</div>
+                  <a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/img-buy-from-us-2.700470b9.jpg" class="img-fluid" alt="photo-product1"></a>
+               </div>
+               <p class="mt-2">Собственное производство по новым европейским стандартам позволяет выпускать металлопластиковые окна и двери самого высокого качества. </p>
+            </li>
+            <li class="item-catalog">
+               <div class="block-item-catalog box-shadow">
+                  <div class="header-item-catalog max">Выполняем Частные и Крупные Заказы</div>
+                  <a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/img-buy-from-us-3.85047ddd.jpg" class="img-fluid" alt="photo-product1"></a>
+               </div>
+               <p class="mt-2">Мы качественно и оперативно выполняется частные и крупные заказы – начиная от изготовления металлопластиковых окон и дверей любых конфигураций и размеров, заканчивая демонтажем старых и установкой новых конструкций. </p>
+            </li>
+            <li class="item-catalog">
+               <div class="block-item-catalog box-shadow">
+                  <div class="header-item-catalog max">Собственная Логистика</div>
+                  <a href="#" class="block-img"><img src="<?php bloginfo('template_url') ?>/images/img-buy-from-us-4.d77ce03a.jpg" class="img-fluid" alt="photo-product1"></a>
+               </div>
+               <p class="mt-2">Доступные цены, быстрая доставка окон и дверей, изготовленных из высококачественного ПВХ-профиля, по Киеву и области. </p>
+            </li>
+         </ul>
+      </div>
+   </section>
+   
    <section class="section-about-us">
       <div class="container">
          <div class="info-about-us">
@@ -221,25 +472,29 @@ get_header();
     </section>
    <section class="section-post section-post-windows bg-post-servises">
       <div class="container">
-         <h2 class="title-section">Как производится замена стекол в окнах</h2>
+         <h2 class="title-section">Как осуществляется замена стеклопакета</h2>
          <div class="text-custom-page">
-            <p>Замена стеклопакетов пластиковых окон представляет собой сложный процесс, включающий несколько этапов:</p>
+            <p>Замена разбитого стеклопакета в металлопластиковом окне осуществляется в несколько этапов:</p>
+            <ul class="ml-3">
+               <li>● вызов мастера для замера габаритов и толщины стеклопакета;</li>
+               <li>● заключение договора на работы;</li>
+               <li>● внесение предоплаты;</li>
+               <li>● <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/">изготовление стеклопакетов под заказ;</a></li>
+               <li>● доставка и осуществление монтажа.</li>
+            </ul>
+            <p>При необходимости осуществляется демонтаж и вывоз старого стеклопакета.</p>
+            <h2 class="title-post">Преимущества заказа в нашей компании</h2>
+            <p>Хотите заменить стеклопакет в балконной двери на качественную и теплоизоляционную светопрозрачную конструкцию? Пришло время обратиться в компанию «Виндовс Груп». Мы поможем Вам выбрать <strong>стеклопакеты</strong>, с учетом функциональных характеристик и назначения.</p>
+            <p>В наших каталогах также представлены металлопластиковые <a href="<?=get_bloginfo('home')?>/komplektuyushchie/steklopakety/energosberegayushchie/">окна с энергосберегающим стеклопакетом</a>, изготовленные из высококачественных и надежных материалов.</p>
+            <p>Наши преимущества:</p>
             <ol>
-               <li>Приезд мастера, осуществляющего замеры для нового стеклянного пакета.</li>
-               <li>Изготовление требуемого изделия.</li>
-               <li>Демонтаж старого и установка новой светопрозрачной конструкции.</li>
+               <li>Изготовление однокамерных, двухкамерных и трехкамерных стеклопакетов по современным технологиям производства.</li>
+               <li>Доступные цены в Киеве и Киевской области.</li>
+               <li>Оперативное выполнение заказа.</li>
+               <li>Осуществление демонтажа и грамотная установка стеклопакетов, с последующим предоставлением гарантии.</li>
+               <li>Бесплатная консультация по вопросу ремонта и замены стеклопакетов.</li>
             </ol>
-            <p>После выполнения монтажа на пакет распространяется гарантия.</p>
-            <h2 class="title-post">Виды услуг</h2>
-            <p>Компания “Виндовс Груп” предлагает следующие виды услуг:</p>
-            <ol>
-               <li>Использование различных профильных систем и оконных конфигураций.</li>
-               <li>Изготовление светопрозрачных конструкций любых форм, размеров и цветов, с ламинацией и без декора.</li>
-               <li>Переустановку стандартных светопрозрачных конструкций на другие типы (энергосберегающие, мультифункциональные, тонированные).</li>
-               <li>Переустановку однокамерных моделей на двух- и трехкамерные.</li>
-               <li>Выполнение работы в строго указанные сроки.</li>
-            </ol>
-            <p>Узнать цену замены стеклопакета в окне можно узнать на сайте или, позвонив по телефону. Стоимость услуги зависит от объема и сложности работ.</p>
+            <p>Рассчитать ориентировочную стоимость замены стекол в стеклопакетах можно на нашем сайте через <a href="<?=get_bloginfo('home')?>/okna/wds/">онлайн-калькулятор окон WDS</a>, или узнать у менеджера-консультанта, позвонив по телефону.</p>
          </div>
       </div>
    </section>

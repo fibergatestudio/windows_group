@@ -30,7 +30,7 @@ get_header();
                <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/remont/regulirovka-plastikovyh-okon-i-dverej/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/img-unlinking-repair-2.cbe4aee1.webp" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/remont/regulirovka-plastikovyh-okon-i-dverej/" class="title-name">Регулировка</a></div>
             </li>
             <li class="item">
-               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/remont/zamena-steklopaketov/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/img-unlinking-repair-3.ba281e50.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/remont/zamena-steklopaketov/" class="title-name">Замена стеклопакетов</a></div>
+               <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/remont/zamena-steklopaketov/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/zamena-steklopaketov.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/remont/zamena-steklopaketov/" class="title-name">Замена стеклопакетов</a></div>
             </li>
             <li class="item">
                <div class="block-item-unlinking"><a href="<?=get_bloginfo('home')?>/remont/zamena-furnitury/" class="img-block"><img src="<?php bloginfo('template_url') ?>/images/img-unlinking-repair-4.fdf70dc9.jpg" class="img-fluid" alt="photo"></a><a href="<?=get_bloginfo('home')?>/remont/zamena-furnitury/" class="title-name">Замена фурнитуры</a></div>
