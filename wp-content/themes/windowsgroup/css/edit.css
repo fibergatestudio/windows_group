@@ -362,3 +362,18 @@ h1.title-section-404 {
 	background-color: transparent!important;
 	line-height: 190%;
 }
+
+@media (min-width: 992px) {
+	.page-partitions-plastic .tab-content img.img-fluid {
+		object-fit: contain;
+		padding-right: 20px;
+	}
+	.tab-content img.img-fluid {
+		object-fit: contain;
+	}
+	.tab-content .block-img .img-type-windows {
+		width: 250px;
+		max-width: 100%;
+		height: auto;
+	}
+}
