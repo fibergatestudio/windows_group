@@ -638,7 +638,7 @@ get_header();
                
                <div class="tab-pane fade show <?=($k===0)?'active':''?>" id="<?=$key_w?>-type-4" role="tabpanel" aria-labelledby="<?=$key_w?>-type-4">
                   <div class="table-tab">
-                     <div class="block-img"><img src="<?php bloginfo('template_url') ?>/images/balcony-2.6f6a8459.png" class="img-type-windows img-fluid" alt="photo"></div>
+                     <div class="block-img mt-lg-5"><img src="<?php bloginfo('template_url') ?>/images/balcony-2.6f6a8459.png" class="img-type-windows img-fluid" alt="photo"></div>
                      <table class="table-windows table-price-windows">
                         <thead>
                            <tr>
