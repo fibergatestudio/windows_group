@@ -76,18 +76,7 @@ get_header();
       <img src="<?php bloginfo('template_url') ?>/images/bg-img-page-glass.8c01f47e.jpg" class="img-fluid" alt="photo-product1">
    </section>
 
-   <div class="block-form-inline">
-      <div class="container">
-         <form class="call-back-form">
-               <div class="form-group"><label><input class="form-control" name="your-name" placeholder="Ваше имя*"></label></div>
-               <div class="form-group"><label><input class="form-control" name="tel-460" placeholder="Телефон*"></label></div>
-               <div class="form-group"><label><input type="email" class="form-control" name="your-message" placeholder="E-mail"></label></div>
-               <button type="submit" class="btn btn-success">Перезвоните Мне</button>
-            </form>
-      </div>
-   </div>
-
-   <section class="section-post section-post-windows">
+   <section class="section-post section-post-windows bottom-none">
       <div class="container">
          <h2 class="title-section">Полная замена стеклопакета или отдельных стекол</h2>
          <p class="text-custom-page">Оконные профильные системы изначально укомплектованы съемными штапиками, позволяющими при необходимости снять и заменить стеклопакет или отдельное стекло.
@@ -97,6 +86,17 @@ get_header();
          </p>
       </div>
    </section>
+
+   <div class="block-form-inline">
+      <div class="container">
+         <form class="call-back-form">
+            <div class="form-group"><label><input class="form-control" name="your-name" placeholder="Ваше имя*"></label></div>
+            <div class="form-group"><label><input class="form-control" name="tel-460" placeholder="Телефон*"></label></div>
+            <div class="form-group"><label><input type="email" class="form-control" name="your-message" placeholder="E-mail"></label></div>
+            <button type="submit" class="btn btn-success">Перезвоните Мне</button>
+         </form>
+      </div>
+   </div>
 
    <section class="section-table-price section-post section-post-windows">
       <div class="container">

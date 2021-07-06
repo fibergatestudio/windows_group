@@ -271,6 +271,11 @@ h1.title-section-404 {
 	margin-top: 25px;
 	text-transform: inherit;
 }
+
+.main section.section-post.section-post-windows.bottom-none{
+	border-bottom: none;
+}
+
 @media (min-width: 768px) and (max-width: 991px){
 	.item-type-glass-partitions.systems .img-block {
 		height: 400px;
